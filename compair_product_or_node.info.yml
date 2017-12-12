@@ -1,0 +1,14 @@
+name: Compare Product or node
+description: User can compare the node and products.
+package: CV
+
+type: module
+core: 8.x
+
+dependencies:
+  - datetime:datetime
+  - link:link
+  - drupal:views
+  - drupal:ctools
+
+configure: compair_product_or_node.settings
